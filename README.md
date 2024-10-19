@@ -8,7 +8,7 @@
 5. /project_root/logs/: Carpeta destinada a guardar los archivos de logs del proceso.
 
 ## Archivos Clave
-1. /project_root/main.py: archivos principal que integra todo el flujo de automatización. Contiene la importación de todos los módulos y scripts, así como la ejecución de la secuencia completa.
+1. /project_root/main.py: archivo principal que integra todo el flujo de automatización. Contiene la importación de todos los módulos y scripts, así como la ejecución de la secuencia completa.
 2. /project_root/scripts/drive_monitor.py: script encargado de la integración con Google Drive, usando la API de Google. Detecta nuevos archivos y los descarga en /downloads/.
 3. /project_root/scripts/AI_interaction.py: script que maneja la interacción con la IA usando Selenium. Incluye desde que se abre el navegador hasta que se tiene la respuesta, pasando por la autenticación y la consulta.
 4. /project_root/scripts/file_manager.py: script encargado de manejar archivos locales, incluyendo el guardado de resúmenes en la carpeta /summaries/. Se encarga de crear, escribir y mover los archivos de texto con los resúmmenes, nombrándolos de forma clara y cronológica.
