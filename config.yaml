@@ -1,0 +1,22 @@
+# Rutas del proyecto
+paths:
+  downloads: "./downloads"
+  csv_reports: "./csv_reports"
+  logs: "./logs/processed_files.log"
+  credentials:
+    gmail: "./scripts/credentials/gmail/credentials.json"
+    drive: "./scripts/credentials/drive/credentials.json"
+
+# Configuración de Gmail
+email_settings:
+  sender_email: "trabajofinalautomatizacion@gmail.com"
+  recipients: ["aaronchiappella@gmail.com", "tadeomat1@gmail.com", "salvatigua@gmail.com", "11emiliafernandez@gmail.com"]
+  
+# Credenciales para iniciar sesión en la IA
+credentials:
+  email: "trabajofinalautomatizacion@gmail.com"
+  password: "automatizacion2024"
+
+  # Configuración de Google Drive
+google_drive:
+  folder_id: "1-ZEjB_UAKGRj5-4ZW0UkefYjZN8eeAsW"  # ID de la carpeta en Google Drive

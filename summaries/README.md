@@ -1,1 +1,0 @@
-En esta carpeta van los resúmenes generados. Este archivo existe para subir la carpeta vacía.
